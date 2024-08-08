@@ -1,0 +1,107 @@
+* {
+    border: none;
+    padding: none;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-inline-start: 1.7rem;
+    padding-top: 0.4rem;
+    padding: 1rem;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, black 10%, rgb(145, 81, 151), rgb(121, 9, 115));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.login-esquerda {
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-esquerda img {
+    width: 50vw;
+}
+
+.login-esquerda h2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.login-direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.808),
+            rgba(160, 160, 160, 0.185)70%);
+    border-radius: 35px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.568);
+    gap: 25px;
+}
+
+.card-login h1 {
+    color: white;
+    font-weight: 800;
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfield input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    padding: 20px 70px;
+    font-size: 1rem;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.568);
+    box-sizing: border-box;
+
+}
+
+.textfield input ::placeholder{ 
+ 
+}
